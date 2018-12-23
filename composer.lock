@@ -1,156 +1,156 @@
 {
-    "_readme": [
-        "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
-        "This file is @generated automatically"
-    ],
-    "content-hash": "8a6d0ab2be1d972bcfc844b0e0e1e8e9",
-    "packages": [
-        {
-            "name": "karamel/cookie",
-            "version": "v0.1.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/karamel-pack/cookie.git",
-                "reference": "1dcbbbf3524ffa01a51bfaad23157e2179a43b83"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/karamel-pack/cookie/zipball/1dcbbbf3524ffa01a51bfaad23157e2179a43b83",
-                "reference": "1dcbbbf3524ffa01a51bfaad23157e2179a43b83",
-                "shasum": ""
-            },
-            "require": {
-                "karamel/encrypt": "v0.1.5"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Karamel\\Cookie\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Amir Kalantar",
-                    "email": "amir.kalantar@gmail.com"
-                }
-            ],
-            "description": "karamel cookie",
-            "time": "2018-12-09T15:48:02+00:00"
-        },
-        {
-            "name": "karamel/encrypt",
-            "version": "v0.1.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/karamel-pack/Encrypt.git",
-                "reference": "0bdd7cca80541abb6c0e46fc773b8ce7a244e368"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/karamel-pack/Encrypt/zipball/0bdd7cca80541abb6c0e46fc773b8ce7a244e368",
-                "reference": "0bdd7cca80541abb6c0e46fc773b8ce7a244e368",
-                "shasum": ""
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Karamel\\Encrypt\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Amir Kalantar",
-                    "email": "amir.kalantar@gmail.com"
-                }
-            ],
-            "description": "encrypt package",
-            "time": "2018-10-03T14:42:28+00:00"
-        },
-        {
-            "name": "karamel/file",
-            "version": "v0.1.9",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/karamel-pack/File.git",
-                "reference": "518b42eefa9fc780d5a7fa9ad0f76936962f06c2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/karamel-pack/File/zipball/518b42eefa9fc780d5a7fa9ad0f76936962f06c2",
-                "reference": "518b42eefa9fc780d5a7fa9ad0f76936962f06c2",
-                "shasum": ""
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Karamel\\File\\": "/src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Amir Kalantar",
-                    "email": "amir.kalantar@gmail.com"
-                }
-            ],
-            "description": "file package for view",
-            "time": "2018-09-25T14:06:56+00:00"
-        },
-        {
-            "name": "karamel/session",
-            "version": "v0.1.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/karamel-pack/session.git",
-                "reference": "9c35a07b8fdd8f2bb4b2e73dcba96a76d796df79"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/karamel-pack/session/zipball/9c35a07b8fdd8f2bb4b2e73dcba96a76d796df79",
-                "reference": "9c35a07b8fdd8f2bb4b2e73dcba96a76d796df79",
-                "shasum": ""
-            },
-            "require": {
-                "karamel/file": "v0.1.9"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Karamel\\Session\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Amir Kalantar",
-                    "email": "amir.kalantar@gmail.com"
-                }
-            ],
-            "description": "karamel session",
-            "time": "2018-12-09T15:49:57+00:00"
+  "_readme": [
+    "This file locks the dependencies of your project to a known state",
+    "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+    "This file is @generated automatically"
+  ],
+  "content-hash": "8a6d0ab2be1d972bcfc844b0e0e1e8e9",
+  "packages": [
+    {
+      "name": "karamel/cookie",
+      "version": "v0.1.5",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/karamel-pack/cookie.git",
+        "reference": "1dcbbbf3524ffa01a51bfaad23157e2179a43b83"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/karamel-pack/cookie/zipball/1dcbbbf3524ffa01a51bfaad23157e2179a43b83",
+        "reference": "1dcbbbf3524ffa01a51bfaad23157e2179a43b83",
+        "shasum": ""
+      },
+      "require": {
+        "karamel/encrypt": "v0.1.5"
+      },
+      "type": "library",
+      "autoload": {
+        "psr-4": {
+          "Karamel\\Cookie\\": "src/"
         }
-    ],
-    "packages-dev": [],
-    "aliases": [],
-    "minimum-stability": "dev",
-    "stability-flags": [],
-    "prefer-stable": false,
-    "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": []
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Amir Kalantar",
+          "email": "amir.kalantar@gmail.com"
+        }
+      ],
+      "description": "karamel cookie",
+      "time": "2018-12-09T15:48:02+00:00"
+    },
+    {
+      "name": "karamel/encrypt",
+      "version": "v0.1.5",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/karamel-pack/Encrypt.git",
+        "reference": "0bdd7cca80541abb6c0e46fc773b8ce7a244e368"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/karamel-pack/Encrypt/zipball/0bdd7cca80541abb6c0e46fc773b8ce7a244e368",
+        "reference": "0bdd7cca80541abb6c0e46fc773b8ce7a244e368",
+        "shasum": ""
+      },
+      "type": "library",
+      "autoload": {
+        "psr-4": {
+          "Karamel\\Encrypt\\": "src/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Amir Kalantar",
+          "email": "amir.kalantar@gmail.com"
+        }
+      ],
+      "description": "encrypt package",
+      "time": "2018-10-03T14:42:28+00:00"
+    },
+    {
+      "name": "karamel/file",
+      "version": "v0.1.9",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/karamel-pack/File.git",
+        "reference": "518b42eefa9fc780d5a7fa9ad0f76936962f06c2"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/karamel-pack/File/zipball/518b42eefa9fc780d5a7fa9ad0f76936962f06c2",
+        "reference": "518b42eefa9fc780d5a7fa9ad0f76936962f06c2",
+        "shasum": ""
+      },
+      "type": "library",
+      "autoload": {
+        "psr-4": {
+          "Karamel\\File\\": "/src"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Amir Kalantar",
+          "email": "amir.kalantar@gmail.com"
+        }
+      ],
+      "description": "file package for view",
+      "time": "2018-09-25T14:06:56+00:00"
+    },
+    {
+      "name": "karamel/session",
+      "version": "v0.1.5",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/karamel-pack/session.git",
+        "reference": "9c35a07b8fdd8f2bb4b2e73dcba96a76d796df79"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/karamel-pack/session/zipball/9c35a07b8fdd8f2bb4b2e73dcba96a76d796df79",
+        "reference": "9c35a07b8fdd8f2bb4b2e73dcba96a76d796df79",
+        "shasum": ""
+      },
+      "require": {
+        "karamel/file": "v0.1.9"
+      },
+      "type": "library",
+      "autoload": {
+        "psr-4": {
+          "Karamel\\Session\\": "src/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Amir Kalantar",
+          "email": "amir.kalantar@gmail.com"
+        }
+      ],
+      "description": "karamel session",
+      "time": "2018-12-09T15:49:57+00:00"
+    }
+  ],
+  "packages-dev": [],
+  "aliases": [],
+  "minimum-stability": "dev",
+  "stability-flags": [],
+  "prefer-stable": false,
+  "prefer-lowest": false,
+  "platform": [],
+  "platform-dev": []
 }

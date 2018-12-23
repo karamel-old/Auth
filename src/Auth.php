@@ -11,7 +11,7 @@ class Auth
 
     public function __construct()
     {
-        $this->filename = md5(time() . rand());
+        $this->filename = Cookie::get(KM_AUTH_COOKIE_NAME) ? Cookie::get(KM_AUTH_COOKIE_NAME) : md5(time() . rand());
         $session = new \Karamel\Session\Session($this->filename);
         $this->session = $session;
     }
@@ -23,11 +23,11 @@ class Auth
         $this->session->set('logged', true);
     }
 
-    public function logout($user)
+    public function logout()
     {
 
         $this->session->destroy();
-        Cookie::set(KM_AUTH_COOKIE_NAME, null, -1);
+        Cookie::delete(KM_AUTH_COOKIE_NAME);
     }
 
     public function user()

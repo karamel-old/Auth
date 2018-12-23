@@ -6,6 +6,11 @@ class Auth
 {
     private static $instace;
 
+    public static function login()
+    {
+        return self::getInstance()->login();
+    }
+
     private static function getInstance()
     {
         if (self::$instace == null)
@@ -13,24 +18,18 @@ class Auth
         return self::$instace;
     }
 
-
-    public function login()
-    {
-        return self::getInstance()->login();
-    }
-
-    public function logout()
+    public static function logout()
     {
 
         return self::getInstance()->logout();
     }
 
-    public function user()
+    public static function user()
     {
         return self::getInstance()->user();
     }
 
-    public function check()
+    public static function check()
     {
         return self::getInstance()->check();
     }
