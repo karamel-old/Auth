@@ -16,7 +16,7 @@
   },
   "minimum-stability": "dev",
   "require": {
-    "karamel/cookie": "v0.1.5",
-    "karamel/session": "v0.1.5"
+    "karamel/cookie": "v0.1.7",
+    "karamel/session": "v0.1.7"
   }
 }
